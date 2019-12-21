@@ -1,0 +1,55 @@
+pickIcon = (e) => {
+    let data = JSON.parse(localStorage.getItem(this.props.id));
+    if (data) {
+      switch (data.type) {
+        case "Trip":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img
+                src="https://image.flaticon.com/icons/png/512/868/868045.png"
+                alt="Trip Icon">
+              </img>
+            </div>);
+        case "Vehicle":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img src="https://image.flaticon.com/icons/png/512/846/846338.png"
+                alt="Vehicle Icon">
+              </img>
+            </div>);
+        case "Clothes":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img src="https://image.flaticon.com/icons/png/512/821/821528.png"
+                alt="Clothes Icon">
+              </img>
+            </div>);
+        case "Real Estate":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img src="https://image.flaticon.com/icons/png/512/709/709537.png"
+                alt="Real Estate Icon">
+              </img>
+            </div>
+          )
+        case "Electronics":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img src="https://image.flaticon.com/icons/png/512/993/993552.png"
+                alt="Electronics Icon">
+              </img>
+            </div>
+          );
+        case "Other":
+          return (
+            <div className={data.price !== '' ? (data.price <= data.money ? "icon animated tada" : "icon") : "icon"}>
+              <img src="https://image.flaticon.com/icons/png/512/1715/1715497.png"
+                alt="Others Icon">
+              </img>
+            </div>
+          );
+        default:
+          return null;
+      }
+    }
+  }
