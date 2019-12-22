@@ -8,6 +8,7 @@ import About from "./components/pages/About";
 import UseScroll from "./components/UseScroll";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -72,8 +73,9 @@ class App extends React.Component {
               <AddGoal
                 addGoal={this.addGoal}
                 delAll={this.delAll}
-                useScroll={this.useScroll.executeScroll}
                 refProp={this.useScroll.htmlElRef}
+                useScroll={this.useScroll.executeScroll}
+
               />
               <Goals
                 goals={this.state.goals}
