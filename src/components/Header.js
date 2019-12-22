@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <>
       <div className="headerX">
-        <a href="/" className="logo-container">
+        <a href="/react-money-goals-app" className="logo-container">
           <div className="circle">
             <img style={{ height: "100px", width: "100px" }} src={Logo} alt="" />
           </div>
@@ -14,8 +14,8 @@ const Header = (props) => {
           </h1>
         </a>
         <nav className="nav-wrapper">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
+          <a href="/react-money-goals-app">Home</a>
+          <a href="/react-money-goals-app/about">About</a>
         </nav>
       </div >
     </>

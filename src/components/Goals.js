@@ -6,10 +6,10 @@ import { Animated } from "react-animated-css";
 class Goals extends Component {
   render() {
     return (
-      <div className="goals-container">
+      <div ref={this.props.refProp} className="goals-container">
         {this.props.goals.map((goal, index) => (
           <Animated
-            animationIn="fadeInUp"
+            animationIn="fadeIn"
             animationInDuration="500"
             isVisible={true}
           >

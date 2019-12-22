@@ -253,7 +253,13 @@ html {
 /*About Page*/
 
 .about {
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 54vh;
+  text-align: center;
 }
 
 /*MEDIAS*/

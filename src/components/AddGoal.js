@@ -35,7 +35,7 @@ export class AddGoal extends Component {
           </h1>
           <Taglines />
           <form id="form1">
-            <div ref={this.props.refProp} className="form-group">
+            <div className="form-group">
               <label style={{ fontSize: "2rem" }}>Add your goal here!</label>
               <input
                 className="form-control form-control-lg"

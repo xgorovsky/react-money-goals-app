@@ -65,7 +65,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="bucket">
           <div className="App">
             <Header />
@@ -73,11 +73,11 @@ class App extends React.Component {
               <AddGoal
                 addGoal={this.addGoal}
                 delAll={this.delAll}
-                refProp={this.useScroll.htmlElRef}
                 useScroll={this.useScroll.executeScroll}
 
               />
               <Goals
+                refProp={this.useScroll.htmlElRef}
                 goals={this.state.goals}
                 delGoal={this.delGoal}
               />
