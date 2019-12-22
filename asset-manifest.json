@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css",
-    "main.js": "/react-money-goals-app/static/js/main.48060f3a.chunk.js",
-    "main.js.map": "/react-money-goals-app/static/js/main.48060f3a.chunk.js.map",
+    "main.js": "/react-money-goals-app/static/js/main.63fb2ca6.chunk.js",
+    "main.js.map": "/react-money-goals-app/static/js/main.63fb2ca6.chunk.js.map",
     "runtime-main.js": "/react-money-goals-app/static/js/runtime-main.4c21d361.js",
     "runtime-main.js.map": "/react-money-goals-app/static/js/runtime-main.4c21d361.js.map",
     "static/js/2.e67e174f.chunk.js": "/react-money-goals-app/static/js/2.e67e174f.chunk.js",
     "static/js/2.e67e174f.chunk.js.map": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.map",
     "index.html": "/react-money-goals-app/index.html",
-    "precache-manifest.2569ce08346b2adc012c062e45343e98.js": "/react-money-goals-app/precache-manifest.2569ce08346b2adc012c062e45343e98.js",
+    "precache-manifest.c2d58e54f4edf056334a747acc5c5c09.js": "/react-money-goals-app/precache-manifest.c2d58e54f4edf056334a747acc5c5c09.js",
     "service-worker.js": "/react-money-goals-app/service-worker.js",
     "static/css/main.47dee5f1.chunk.css.map": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css.map",
     "static/js/2.e67e174f.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.LICENSE",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.4c21d361.js",
     "static/js/2.e67e174f.chunk.js",
     "static/css/main.47dee5f1.chunk.css",
-    "static/js/main.48060f3a.chunk.js"
+    "static/js/main.63fb2ca6.chunk.js"
   ]
 }
