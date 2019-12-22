@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00baff9708071ad0dacecd14101fa7b5",
+    "revision": "213d8dc48592f25407124eebf5cb93d6",
     "url": "/react-money-goals-app/index.html"
   },
   {
-    "revision": "b33d106ecffceca831d1",
+    "revision": "8634a0420767029457a0",
     "url": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.LICENSE"
   },
   {
-    "revision": "b33d106ecffceca831d1",
-    "url": "/react-money-goals-app/static/js/main.66c1d23f.chunk.js"
+    "revision": "8634a0420767029457a0",
+    "url": "/react-money-goals-app/static/js/main.05ea518b.chunk.js"
   },
   {
     "revision": "d47cf52b9b44489a7717",
