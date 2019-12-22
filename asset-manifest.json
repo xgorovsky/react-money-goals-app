@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css",
+    "main.js": "/react-money-goals-app/static/js/main.a77dcc37.chunk.js",
+    "main.js.map": "/react-money-goals-app/static/js/main.a77dcc37.chunk.js.map",
+    "runtime-main.js": "/react-money-goals-app/static/js/runtime-main.4c21d361.js",
+    "runtime-main.js.map": "/react-money-goals-app/static/js/runtime-main.4c21d361.js.map",
+    "static/js/2.e67e174f.chunk.js": "/react-money-goals-app/static/js/2.e67e174f.chunk.js",
+    "static/js/2.e67e174f.chunk.js.map": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.map",
+    "index.html": "/react-money-goals-app/index.html",
+    "precache-manifest.f30e3e94a0bcfa9a6e449d3465136025.js": "/react-money-goals-app/precache-manifest.f30e3e94a0bcfa9a6e449d3465136025.js",
+    "service-worker.js": "/react-money-goals-app/service-worker.js",
+    "static/css/main.47dee5f1.chunk.css.map": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css.map",
+    "static/js/2.e67e174f.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.LICENSE",
+    "static/media/clothes.svg": "/react-money-goals-app/static/media/clothes.88642987.svg",
+    "static/media/electronics.svg": "/react-money-goals-app/static/media/electronics.1e4b5790.svg",
+    "static/media/estate.svg": "/react-money-goals-app/static/media/estate.2d71706a.svg",
+    "static/media/header_logo.svg": "/react-money-goals-app/static/media/header_logo.0e8afb5c.svg",
+    "static/media/App.css": "/react-money-goals-app/static/media/money-blue.71cbc34a.png",
+    "static/media/other.svg": "/react-money-goals-app/static/media/other.d5b56ecc.svg",
+    "static/media/trip.svg": "/react-money-goals-app/static/media/trip.a3381042.svg",
+    "static/media/undraw_1.svg": "/react-money-goals-app/static/media/undraw_1.8e70b48d.svg",
+    "static/media/undraw_2.svg": "/react-money-goals-app/static/media/undraw_2.3e6d9686.svg",
+    "static/media/undraw_3.svg": "/react-money-goals-app/static/media/undraw_3.cae41495.svg",
+    "static/media/vehicle.svg": "/react-money-goals-app/static/media/vehicle.cfb4e3ea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c21d361.js",
+    "static/js/2.e67e174f.chunk.js",
+    "static/css/main.47dee5f1.chunk.css",
+    "static/js/main.a77dcc37.chunk.js"
+  ]
+}
