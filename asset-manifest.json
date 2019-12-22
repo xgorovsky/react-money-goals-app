@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css",
-    "main.js": "/react-money-goals-app/static/js/main.63fb2ca6.chunk.js",
-    "main.js.map": "/react-money-goals-app/static/js/main.63fb2ca6.chunk.js.map",
+    "main.css": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css",
+    "main.js": "/react-money-goals-app/static/js/main.66c1d23f.chunk.js",
+    "main.js.map": "/react-money-goals-app/static/js/main.66c1d23f.chunk.js.map",
     "runtime-main.js": "/react-money-goals-app/static/js/runtime-main.4c21d361.js",
     "runtime-main.js.map": "/react-money-goals-app/static/js/runtime-main.4c21d361.js.map",
     "static/js/2.e67e174f.chunk.js": "/react-money-goals-app/static/js/2.e67e174f.chunk.js",
     "static/js/2.e67e174f.chunk.js.map": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.map",
     "index.html": "/react-money-goals-app/index.html",
-    "precache-manifest.c2d58e54f4edf056334a747acc5c5c09.js": "/react-money-goals-app/precache-manifest.c2d58e54f4edf056334a747acc5c5c09.js",
+    "precache-manifest.780754cb37b1a67168b4aec12e826884.js": "/react-money-goals-app/precache-manifest.780754cb37b1a67168b4aec12e826884.js",
     "service-worker.js": "/react-money-goals-app/service-worker.js",
-    "static/css/main.47dee5f1.chunk.css.map": "/react-money-goals-app/static/css/main.47dee5f1.chunk.css.map",
+    "static/css/main.ed506bf3.chunk.css.map": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css.map",
     "static/js/2.e67e174f.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.e67e174f.chunk.js.LICENSE",
     "static/media/clothes.svg": "/react-money-goals-app/static/media/clothes.88642987.svg",
     "static/media/electronics.svg": "/react-money-goals-app/static/media/electronics.1e4b5790.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.4c21d361.js",
     "static/js/2.e67e174f.chunk.js",
-    "static/css/main.47dee5f1.chunk.css",
-    "static/js/main.63fb2ca6.chunk.js"
+    "static/css/main.ed506bf3.chunk.css",
+    "static/js/main.66c1d23f.chunk.js"
   ]
 }
