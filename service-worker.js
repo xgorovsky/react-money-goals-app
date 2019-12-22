@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-money-goals-app/precache-manifest.f30e3e94a0bcfa9a6e449d3465136025.js"
+  "/react-money-goals-app/precache-manifest.f6dffa8a12700288d27f4352d565071b.js"
 );
 
 self.addEventListener('message', (event) => {
