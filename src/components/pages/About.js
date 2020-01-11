@@ -9,7 +9,7 @@ const About = () => {
           allocate on your particular needs
         </h3>
         <p>
-          This is page is provided only to implement react-routers in my app
+          This is page is provided only to implement react-routes in my app
           <br />
           Cheers!
         </p>

@@ -6,7 +6,7 @@ import Goals from "./components/Goals";
 import Footer from "./components/Footer";
 import About from "./components/pages/About";
 import UseScroll from "./components/UseScroll";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 
 class App extends React.Component {
@@ -65,7 +65,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div className="bucket">
           <div className="App">
             <Header />
@@ -74,7 +74,6 @@ class App extends React.Component {
                 addGoal={this.addGoal}
                 delAll={this.delAll}
                 useScroll={this.useScroll.executeScroll}
-
               />
               <Goals
                 refProp={this.useScroll.htmlElRef}
