@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46c644354a3b945956b492da4e231123",
+    "revision": "6f38d3d152000fafb542aba6fb052281",
     "url": "/react-money-goals-app/index.html"
   },
   {
-    "revision": "ffeb770a7a0acdac3362",
-    "url": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css"
+    "revision": "20052116400570bd6367",
+    "url": "/react-money-goals-app/static/css/main.2a387af1.chunk.css"
   },
   {
-    "revision": "69321e25701adda21bdd",
-    "url": "/react-money-goals-app/static/js/2.c9c67c2c.chunk.js"
+    "revision": "9732ade553e2b6ec6929",
+    "url": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js"
   },
   {
     "revision": "c6f2a8cff5bda75ce9d9d2e5dad3a2a7",
-    "url": "/react-money-goals-app/static/js/2.c9c67c2c.chunk.js.LICENSE"
+    "url": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js.LICENSE"
   },
   {
-    "revision": "ffeb770a7a0acdac3362",
-    "url": "/react-money-goals-app/static/js/main.1666eeff.chunk.js"
+    "revision": "20052116400570bd6367",
+    "url": "/react-money-goals-app/static/js/main.7df0a5cc.chunk.js"
   },
   {
     "revision": "d47cf52b9b44489a7717",

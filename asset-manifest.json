@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css",
-    "main.js": "/react-money-goals-app/static/js/main.1666eeff.chunk.js",
-    "main.js.map": "/react-money-goals-app/static/js/main.1666eeff.chunk.js.map",
+    "main.css": "/react-money-goals-app/static/css/main.2a387af1.chunk.css",
+    "main.js": "/react-money-goals-app/static/js/main.7df0a5cc.chunk.js",
+    "main.js.map": "/react-money-goals-app/static/js/main.7df0a5cc.chunk.js.map",
     "runtime-main.js": "/react-money-goals-app/static/js/runtime-main.4c21d361.js",
     "runtime-main.js.map": "/react-money-goals-app/static/js/runtime-main.4c21d361.js.map",
-    "static/js/2.c9c67c2c.chunk.js": "/react-money-goals-app/static/js/2.c9c67c2c.chunk.js",
-    "static/js/2.c9c67c2c.chunk.js.map": "/react-money-goals-app/static/js/2.c9c67c2c.chunk.js.map",
+    "static/js/2.96ba0a0a.chunk.js": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js",
+    "static/js/2.96ba0a0a.chunk.js.map": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js.map",
     "index.html": "/react-money-goals-app/index.html",
-    "precache-manifest.512b9b8793959e08307535bad32a4470.js": "/react-money-goals-app/precache-manifest.512b9b8793959e08307535bad32a4470.js",
+    "precache-manifest.d1c05c1e42ab2e481116c198ea2b1c63.js": "/react-money-goals-app/precache-manifest.d1c05c1e42ab2e481116c198ea2b1c63.js",
     "service-worker.js": "/react-money-goals-app/service-worker.js",
-    "static/css/main.ed506bf3.chunk.css.map": "/react-money-goals-app/static/css/main.ed506bf3.chunk.css.map",
-    "static/js/2.c9c67c2c.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.c9c67c2c.chunk.js.LICENSE",
+    "static/css/main.2a387af1.chunk.css.map": "/react-money-goals-app/static/css/main.2a387af1.chunk.css.map",
+    "static/js/2.96ba0a0a.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js.LICENSE",
     "static/media/clothes.svg": "/react-money-goals-app/static/media/clothes.88642987.svg",
     "static/media/electronics.svg": "/react-money-goals-app/static/media/electronics.1e4b5790.svg",
     "static/media/estate.svg": "/react-money-goals-app/static/media/estate.2d71706a.svg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4c21d361.js",
-    "static/js/2.c9c67c2c.chunk.js",
-    "static/css/main.ed506bf3.chunk.css",
-    "static/js/main.1666eeff.chunk.js"
+    "static/js/2.96ba0a0a.chunk.js",
+    "static/css/main.2a387af1.chunk.css",
+    "static/js/main.7df0a5cc.chunk.js"
   ]
 }
