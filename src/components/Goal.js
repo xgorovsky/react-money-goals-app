@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import GoalProperties from "./GoalProperties";
+import ShowButton from "./ShowButton";
 import TripLg from "./img/icons/trip.svg";
 import VehLg from "./img/icons/vehicle.svg";
 import EstLg from "./img/icons/estate.svg";
@@ -47,11 +48,27 @@ export class Goal extends Component {
   };
 
   addMoney = e => {
+    const { money, price, addValue } = this.state;
     let data = JSON.parse(localStorage.getItem(this.props.id));
-    data.money += Number(this.state.addValue);
-    this.setState({
-      money: data.money
-    });
+
+    if (money >= price) {
+      console.log("eluwina");
+      this.setState({
+        money: price
+      });
+    } else if (price < money + Number(addValue)) {
+      console.log("bogacz");
+      data.money = price;
+      this.setState({
+        money: price
+      });
+    } else {
+      data.money += Number(addValue);
+      this.setState({
+        money: data.money
+      });
+    }
+
     localStorage.setItem(this.props.id, JSON.stringify(data));
     if (data.price <= data.money) {
       this.setState({
@@ -62,7 +79,12 @@ export class Goal extends Component {
 
   subMoney = () => {
     let data = JSON.parse(localStorage.getItem(this.props.id));
-    data.money -= Number(this.state.addValue);
+    if (data.money < Number(this.state.addValue)) {
+      this.setState({ money: 0 });
+      data.money = 0;
+    } else {
+      data.money -= Number(this.state.addValue);
+    }
     this.setState({
       price: data.price,
       type: data.type,
@@ -174,7 +196,7 @@ export class Goal extends Component {
   showHide = () => {
     return {
       display: this.state.show ? "block" : "none",
-      animation: this.state.show ? "slide_in 0.2s" : null
+      animation: this.state.show ? "slide_in .3s" : null
     };
   };
 
@@ -182,6 +204,17 @@ export class Goal extends Component {
     e.preventDefault();
     const show = this.state.show;
     this.setState({ show: !show });
+  };
+
+  getWidth = () => {
+    let check = (this.state.money / this.state.price).toFixed(3) * 100;
+    let percent =
+      Math.round((this.state.money / this.state.price) * 100).toString() + "%";
+    if (check >= 0) {
+      return percent;
+    } else {
+      return 0;
+    }
   };
 
   render() {
@@ -195,6 +228,20 @@ export class Goal extends Component {
             : "jumbotron goal-style"
         }
       >
+        <div style={{ margin: "10px" }} className="progress">
+          <div
+            className="progress-bar bg-succes"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            style={{
+              backgroundColor: "#28a745",
+              width: this.getWidth()
+            }}
+          >
+            {this.getWidth()}
+          </div>
+        </div>
         <div className="goal-header">
           <h1
             className={
@@ -215,13 +262,11 @@ export class Goal extends Component {
           id={this.props.id}
           onChange={this.onChange}
         />
-        <button
-          className="btn-show btn btn-secondary "
-          id="btn-show"
-          onClick={this.changeShowHide}
-        >
-          &#8250; Show/Hide inputs
-        </button>
+        <ShowButton
+          dialog={["Show properties", "Hide properties"]}
+          symbols={["\u{1F648}", "\u{1F649}"]}
+          action={this.changeShowHide}
+        />
         <form style={this.showHide()}>
           <div className="inputs-group form-group">
             <label>Price:</label>
@@ -229,7 +274,7 @@ export class Goal extends Component {
               name="price"
               type="number"
               className="form-control"
-              placeholder="How many kidneys it will cost you?"
+              placeholder="How much it will cost you? ($)"
               value={this.state.price}
               onChange={this.onChange}
             />
@@ -248,7 +293,7 @@ export class Goal extends Component {
               value={this.state.type}
               onChange={this.onChange}
             >
-              <option value="" disabled selected>
+              <option value="" disabled>
                 Select your option
               </option>
               <option>Trip</option>
@@ -265,7 +310,6 @@ export class Goal extends Component {
             <div className="btn-group" role="group">
               <button
                 type="button"
-                id={this.props.key}
                 className="btn btn-danger"
                 onClick={this.props.delGoal.bind(this, this.props.title)}
               >
@@ -273,7 +317,6 @@ export class Goal extends Component {
               </button>
               <button
                 type="button"
-                id={this.props.key}
                 className="btn btn-warning"
                 onClick={this.resGoal.bind(this, this.props.title)}
               >
@@ -283,7 +326,6 @@ export class Goal extends Component {
             <input
               type="submit"
               onClick={this.updateGoal}
-              id={this.props.id}
               className="btn btn-primary"
               value="Update this goal"
               style={{ float: "right" }}

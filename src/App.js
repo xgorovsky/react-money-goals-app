@@ -49,17 +49,21 @@ class App extends React.Component {
   }
 
   delAll = (e) => {
-    e.preventDefault();
-    this.setState({ goals: [] })
-    localStorage.clear();
+    if (window.confirm("Are you sure? This will delete all your goals")) {
+      e.preventDefault();
+      this.setState({ goals: [] })
+      localStorage.clear();
+    }
   }
 
   delGoal = (title) => {
-    let arr = JSON.parse(localStorage.getItem('myGoals'));
-    let newArr = [...arr.filter(goal => goal !== title)];
-    this.setState({ goals: newArr });
-    localStorage.setItem('myGoals', JSON.stringify(newArr));
-    localStorage.removeItem(title);
+    if (window.confirm("Are you sure you want to delete this item?")) {
+      let arr = JSON.parse(localStorage.getItem('myGoals'));
+      let newArr = [...arr.filter(goal => goal !== title)];
+      this.setState({ goals: newArr });
+      localStorage.setItem('myGoals', JSON.stringify(newArr));
+      localStorage.removeItem(title);
+    }
   }
 
 

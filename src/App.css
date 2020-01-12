@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,900&display=swap");
 
+:root {
+  --green: #28a745;
+  --primaryColor: #4f70f6;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,17 +20,27 @@ html {
 .blue-text {
   font-weight: 500;
   font-size: 2rem;
-  color: #4f70f6;
+  color: var(--primaryColor);
 }
 
 .green-text {
-  color: green;
+  color: var(--green);
   font-weight: 500;
 }
 
 .jumbotron {
   margin: 0;
   padding: 50px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /*HEADER*/
@@ -84,7 +99,7 @@ html {
 .circle {
   height: 110px;
   width: 110px;
-  background-color: #4f70f6;
+  background-color: var(--primaryColor);
   border-radius: 50%;
   margin: 0 10px 0 50px;
 }
@@ -187,7 +202,7 @@ html {
 }
 
 .completedStyle {
-  color: green;
+  color: var(--green);
   font-weight: bolder;
 }
 
@@ -233,7 +248,7 @@ html {
 }
 
 .footer {
-  background: #4f70f6;
+  background: var(--primaryColor);
   color: white;
   position: relative;
   width: 100%;
@@ -249,6 +264,10 @@ html {
 
 .btn-wide {
   width: 100%;
+}
+
+btn-add {
+  width: 350px;
 }
 /*About Page*/
 

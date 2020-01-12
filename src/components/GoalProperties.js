@@ -56,7 +56,7 @@ export const GoalProperties = props => {
                     type="submit"
                     className="btn btn-success"
                   >
-                    Add
+                    Increment
                   </button>
                 </div>
               </div>
