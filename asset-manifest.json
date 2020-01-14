@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-money-goals-app/static/css/main.2a387af1.chunk.css",
-    "main.js": "/react-money-goals-app/static/js/main.7df0a5cc.chunk.js",
-    "main.js.map": "/react-money-goals-app/static/js/main.7df0a5cc.chunk.js.map",
+    "main.css": "/react-money-goals-app/static/css/main.20642b3a.chunk.css",
+    "main.js": "/react-money-goals-app/static/js/main.58f47dc1.chunk.js",
+    "main.js.map": "/react-money-goals-app/static/js/main.58f47dc1.chunk.js.map",
     "runtime-main.js": "/react-money-goals-app/static/js/runtime-main.4c21d361.js",
     "runtime-main.js.map": "/react-money-goals-app/static/js/runtime-main.4c21d361.js.map",
     "static/js/2.96ba0a0a.chunk.js": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js",
     "static/js/2.96ba0a0a.chunk.js.map": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js.map",
     "index.html": "/react-money-goals-app/index.html",
-    "precache-manifest.d1c05c1e42ab2e481116c198ea2b1c63.js": "/react-money-goals-app/precache-manifest.d1c05c1e42ab2e481116c198ea2b1c63.js",
+    "precache-manifest.728fd5ef32f872ea0c08b4e13c404c6e.js": "/react-money-goals-app/precache-manifest.728fd5ef32f872ea0c08b4e13c404c6e.js",
     "service-worker.js": "/react-money-goals-app/service-worker.js",
-    "static/css/main.2a387af1.chunk.css.map": "/react-money-goals-app/static/css/main.2a387af1.chunk.css.map",
+    "static/css/main.20642b3a.chunk.css.map": "/react-money-goals-app/static/css/main.20642b3a.chunk.css.map",
     "static/js/2.96ba0a0a.chunk.js.LICENSE": "/react-money-goals-app/static/js/2.96ba0a0a.chunk.js.LICENSE",
     "static/media/clothes.svg": "/react-money-goals-app/static/media/clothes.88642987.svg",
     "static/media/electronics.svg": "/react-money-goals-app/static/media/electronics.1e4b5790.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.4c21d361.js",
     "static/js/2.96ba0a0a.chunk.js",
-    "static/css/main.2a387af1.chunk.css",
-    "static/js/main.7df0a5cc.chunk.js"
+    "static/css/main.20642b3a.chunk.css",
+    "static/js/main.58f47dc1.chunk.js"
   ]
 }
