@@ -16,14 +16,15 @@ export class Goal extends Component {
     money: 0,
     addValue: 0,
     show: true,
+    isNew: true,
     isDone: false
   };
 
-  componentDidMount(id) {
+  componentDidMount() {
     let data = JSON.parse(localStorage.getItem(this.props.id));
     this.setState(data);
     if (data !== null) {
-      this.setState({ show: false });
+      this.setState({ show: false, isNew: false });
     }
   }
 
@@ -52,12 +53,10 @@ export class Goal extends Component {
     let data = JSON.parse(localStorage.getItem(this.props.id));
 
     if (money >= price) {
-      console.log("eluwina");
       this.setState({
         money: price
       });
     } else if (price < money + Number(addValue)) {
-      console.log("bogacz");
       data.money = price;
       this.setState({
         money: price
@@ -263,6 +262,7 @@ export class Goal extends Component {
           onChange={this.onChange}
         />
         <ShowButton
+          show={this.state.isNew}
           dialog={["Show properties", "Hide properties"]}
           symbols={["\u{1F648}", "\u{1F649}"]}
           action={this.changeShowHide}

@@ -78,9 +78,9 @@ class App extends React.Component {
                 addGoal={this.addGoal}
                 delAll={this.delAll}
                 useScroll={this.useScroll.executeScroll}
+                refProp={this.useScroll.htmlElRef}
               />
               <Goals
-                refProp={this.useScroll.htmlElRef}
                 goals={this.state.goals}
                 delGoal={this.delGoal}
               />

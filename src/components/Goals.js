@@ -5,7 +5,7 @@ import { Animated } from "react-animated-css";
 
 const Goals = props => {
   return (
-    <div ref={props.refProp} className="goals-container">
+    <div className="goals-container">
       {props.goals.map((goal, index) => (
         <Animated
           key={uuid()}

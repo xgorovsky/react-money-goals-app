@@ -55,7 +55,7 @@ export class AddGoal extends Component {
                 onClick={this.onSubmit}
                 style={{ float: "right" }}
               />
-              <div className="btn-group" role="group">
+              <div ref={this.props.refProp} className="btn-group" role="group">
                 <button
                   onClick={this.onReset}
                   type="reset"
